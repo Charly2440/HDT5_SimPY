@@ -1,0 +1,8 @@
+En principio es posible observar que el aumento en la memoria de la RAM no produce un cambio significativo en el tiempo promedio de ejecución. No es hasta
+que se realizan cambios a la velocidad del CPU y a la cantidad de CPUs utilizados que se observan cambios significativos. Por lo tanto es justo concluir
+que la mejora en los tiempos medios de ejecucion viene dada de aumentar la cantidad de procesadores o la velocidad de estos. Al tornar la discusión
+a los cambios significativos es posible observar que verdaderamente la diferencia entre las dos posibles soluciones no es mucha. En caso de decidir una
+de estas sería importante tomar en cuenta las implicaciones de cada una. El agregar un nuevo procesador implica que se paraleliza la programación y ejecución
+de instrucciones, además de que añade un componente de modificación de hardware más complejo. Mientras que el agregar velocidad y optimizar el procesador
+que ya se tiene tiene menor complejidad en hardware y en el procesamiento de las instrucciones. Por todo lo discutido anteriormente, es posible concluir
+que la opción que da un mejor desempeño a un menor costo es el optimizar la velocidad del procesador.
